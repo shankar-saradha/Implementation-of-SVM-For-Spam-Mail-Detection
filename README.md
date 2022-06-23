@@ -8,10 +8,13 @@ To write a program to implement the SVM For Spam Mail Detection.
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. import the necessary packages.
+2. Read the given csv file and display the few contents of the data.
+3. Assign the features for x and y respectively.
+4. Split the x and y sets into train and test sets.
+5. Convert the Alphabetical data to numeric using CountVectorizer.
+6. Predict the number of spam in the data using SVC (C-Support Vector Classification) method of SVM (Support vector machine) in sklearn library.
+7. Find the accuracy of the model.
 
 ## Program:
 ```Python 
@@ -57,16 +60,20 @@ accuracy
 ```
 
 ## Output:
-#DATASET :
+## DATASET :
+
 ![08 1](https://user-images.githubusercontent.com/93978702/175310963-9d00fe60-91fb-467e-8ade-75c6e1000096.png)
 
-#DATASET INFORMATION:
+## DATASET INFORMATION:
+
 ![08 2](https://user-images.githubusercontent.com/93978702/175311121-c8dcb188-9065-488d-8f8a-6d70cb63b537.png)
 
-#DETECTED SPAM:
+## DETECTED SPAM:
+
 ![detected](https://user-images.githubusercontent.com/93978702/175311230-3499d3b1-1f36-4fab-8c5e-2b93a2bd84c7.png)
 
-ACCURACY:
+## ACCURACY:
+
 ![accuracy](https://user-images.githubusercontent.com/93978702/175311278-40387312-5d9e-4cfa-b0b5-2b15659e0b38.png)
 
 
